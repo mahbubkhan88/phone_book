@@ -1,0 +1,386 @@
+body{
+    /* background:#3FC380; */
+    color:#fff;
+    font-family: cursive;
+    padding:0;
+    margin:0;
+	background:url('../images/background.jpg');
+	background-size: auto;
+	background-position: center;
+}
+.text-animation{
+  -webkit-animation: animationText linear 1s;
+  -moz-animation: animationText linear 1s;
+  -webkit-animation-iteration-count: 1;
+  -moz-animation-iteration-count: 1;
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 50%;
+}
+
+@-webkit-keyframes animationText {
+  0% {
+    -webkit-transform:  translate(0px,-100px)  rotate(0deg) ;
+  }
+  15% {
+    -webkit-transform:  translate(0px,-25px)  ;
+  }
+  30% {
+    -webkit-transform:  translate(0px,0px)  ;
+  }
+  45% {
+    -webkit-transform:  translate(0px,-15px)  ;
+  }
+  57% {
+    -webkit-transform:  translate(0px,-11px)  rotate(-1deg) ;
+  }
+  67% {
+    -webkit-transform:  translate(0px,0px)  rotate(-1deg) ;
+  }
+  75% {
+    -webkit-transform:  translate(0px,-5px)  rotate(-1deg) ;
+  }
+  100% {
+    -webkit-transform:  translate(0px,0px)  rotate(-1deg) ;
+  }
+}
+@-moz-keyframes animationText {
+  0% {
+    -moz-transform:  translate(0px,-100px)  rotate(0deg) ;
+  }
+  15% {
+    -moz-transform:  translate(0px,-25px)  ;
+  }
+  30% {
+    -moz-transform:  translate(0px,0px)  ;
+  }
+  45% {
+    -moz-transform:  translate(0px,-15px)  ;
+  }
+  57% {
+    -moz-transform:  translate(0px,-11px)  rotate(-1deg) ;
+  }
+  67% {
+    -moz-transform:  translate(0px,0px)  rotate(-1deg) ;
+  }
+  75% {
+    -moz-transform:  translate(0px,-5px)  rotate(-1deg) ;
+  }
+  100% {
+    -moz-transform:  translate(0px,0px)  rotate(-1deg) ;
+  }
+}
+
+
+a.back{color:lime}
+h1,h2,h3{text-align:center;padding:0 15px;font-family: fantasy;text-transform:uppercase;font-size:65px;}
+h4{padding:0 15px}
+.wrapper{margin:0 auto;padding:20px 15px;width:80%;background:green}
+.wrapper2{margin:0;padding:0;width:100%}
+.bg{padding-bottom:50px;max-width:1000px}
+h3{font-size:40px}
+
+/*--------------------------
+ ------ Navigation ------
+--------------------------*/
+ul.mainNav{}
+ul.mainNav>li{list-style:none;padding:3px 15px;}
+ul.mainNav>li>a{
+    color:#fff;
+    display:inline;
+    padding:0;
+    text-decoration:none
+}
+ul.mainNav>li>a:hover{
+    background:none;
+    color:#f1c40f;
+    text-decoration:underline;
+}
+
+/*--- Nav ------*/
+ul.nav{float:left;display:inline-block;width:auto}
+ul.nav>li{list-style:none;display:inline-block}
+ul.nav>li>a{
+    color:#fff;
+    display:inline-block;
+    padding:3px 15px;
+    text-decoration:none
+}
+ul.nav>li>a.active{background:#2c3e50}
+ul.nav>li>a.active:hover{color:red}
+ul.nav>li>a:hover{color:green;text-decoration:underline}
+.search{
+    color:#333;
+    float:right;
+    display:inline-block;
+    width:auto
+}
+.srhBox{
+    padding:2px 5px;
+    width:200px;
+}
+.srhBtn{
+    border:0;
+    border-radius:3px;
+    padding:3px 10px;
+}
+.srhBtn:hover{
+    background:#2c3e50;
+    color:red;
+}
+.search form{margin:0}
+.search select{padding:4px 5px}
+/*--------------------------
+ ------ Insert & Edit ------
+--------------------------*/
+.formArea{margin:0;padding:40px 0 0;width:100%}
+/*-----------------
+ ------ View ------
+-----------------*/
+.viewArea{border-bottom:3px solid #fff;padding:15px 15px 80px;width:100%;}
+.view,.view2{padding-bottom:15px;width:100%}
+.view>label,.view2>label{display:inline-block;width:150px}
+.view>p,.view2>p{color:#ffff00;margin:0;display:inline-block;width:300px}
+.view2>p{color:#111}
+
+ul.viewLink{margin:0;padding:10px;text-align:center;}
+ul.viewLink>li{display:inline-block;list-style:none;margin:0 30px;}
+ul.viewLink>li>a{color:#fff;text-decoration:none}
+ul.viewLink>li>a:hover{color:#ffff00;text-decoration:underline}
+.view>figure,.view2>figure{
+    border:5px solid #2c3e50;
+    margin:0 auto 20px;
+    width:300px
+}
+.view>figure>img,.view2>figure>img{display:block;width:100%}
+.formArea>figure{
+    border:5px solid #2c3e50;
+    margin:0 auto 20px;
+    width:30%
+}
+.formArea>figure>img{display:block;width:100%}
+.edit{margin:0;padding:0;width:100%}
+.edit>a{display:block;float:right;width:40px}
+.edit>a>img{display:block;width:100%}
+/*-----------------
+ ------ List ------
+-----------------*/
+.tableInfo{padding-bottom:12px}
+p.textRight{margin:0;padding:8px 0;text-align:right;}
+ul.download{margin:0;padding:0;width:100%;}
+ul.download>li{
+    display:block;
+    float:left;
+    font-size:20px;
+    list-style:none;
+    margin-right:10px
+}
+ul.download>li>a{display:block;width:36px}
+ul.download>li>a>img{display:block;width:100%}
+.items{color:#4388cc;padding:5px 8px;text-align:center;width:70%}
+.items>option{}
+.listArea,.listArea2{margin:0;padding:40px 0 0;widht:100%}
+.listArea2 table{color:#111}
+.listBox{box-sizing:border-box;float:left;padding:0;width:100%}
+ul.listLink{
+    float:right;
+    margin:0;
+    padding:20px 15px;
+    text-align:right
+}
+ul.listLink>li{
+    color:#b5b5b5;
+    display:inline-block;
+    float:left;
+    line-height:33px;
+    margin:0 6px
+}
+ul.listLink>li>a{color:#fff;text-decoration:none}
+ul.listLink>li>a.next{
+    background:url("../images/next.png") no-repeat 0 0 / 32px 32px;
+    display:block;
+    height:32px;
+    width:32px;
+}
+ul.listLink>li>a:hover{color:#ffff00;text-decoration:underline}
+
+/*--- Table ----*/
+.text-center>tr>th{text-align:center}
+.text-center tr>th,
+.text-center tr>td{text-align:center;vertical-align:middle !important}
+td>a{color:#fff}
+td>a:hover{color:#f39c12}
+td>a>img{width:100px;}
+td>form{display:inline-block}
+td>img{width:100px}
+
+.list-btn{
+    background:none;
+    border:0;
+    border-radius:15px;
+    cursor:pointer;
+    display:inline-block;
+    height:26px;
+    margin:0 5px;
+    padding:0;
+    width:26px
+}
+.list-btn>img{width:100%}
+#footer{
+    background:rgba(51, 51, 51, 0.8);
+    bottom:0;
+    left:0;
+    position:fixed;
+    right:0;
+    width:100%
+}
+.footerArea{
+    box-sizing:border-box;
+    margin:0 auto;
+    max-width:1000px;
+    padding:0 15px
+}
+.footer{text-align:right}
+.footer>p{margin:10px 0}
+.footer>p>a{font-family:Comic Sans MS;color:#fcff22}
+.footer>p>a:hover{color:#bdfe09}
+
+
+
+.marginLeft{padding-left:165px}
+.message{
+    position:relative;
+    text-align:center;
+}
+.message>p{
+    border-radius:3px;
+    box-shadow:1px 4px 6px #333;
+    padding:15px;
+    background:#fff;
+}
+.message>p.success{color:green}
+.message>p.errors{color:red}
+.top-padd{padding-top:8px}
+.file-control{}
+.trashed{padding:6px 0}
+.trashed>a{color:#fff}
+.action{padding-bottom:15px}
+.action select{color:#4388cc;padding:7px 10px;}
+.action input{background:#2c3e50;border:0;color:#fff;margin-left:5px;padding:6px 10px}
+.action input:hover{color:red}
+input[type="checkbox"]{
+    -ms-transform: scale(1.3); /* IE */
+    -moz-transform: scale(1.3); /* FF */
+    -webkit-transform: scale(1.3); /* Safari and Chrome */
+    -o-transform: scale(1.3); /* Opera */
+}
+input[type="radio"]{
+    line-height:normal;
+    margin:10px 0 0
+}
+input[type="file"]{
+    cursor:pointer
+}
+/*--- Register ----*/
+ul.register{
+    float:right;
+    display:inline-block;
+    margin:0;
+    padding:0;
+    width:auto
+}
+ul.register>li{display:inline-block}
+ul.register>li>a{background:#fff;display:block;padding:3px 15px}
+ul.register>li>a:hover{background:#2c3e50;color:red}
+
+/*--- Login ----*/
+.loginArea{
+    background:#fff;
+    box-sizing:border-box;
+    border-radius:5px;
+    box-shadow:1px 3px 5px #111;
+    color:#333;
+    padding:15px;
+    margin:0 auto;
+    max-width:500px;
+    min-width:250px;
+    width:100%
+}
+.nAccount{float:right;margin-top:6px}
+
+/*--- Dashbord ----*/
+
+.full-content{margin:0;padding:0;width:100%}
+aside.aside{
+    background:#333;
+    box-shadow:1px 4px 4px #111;
+    box-sizing:border-box;
+    float:left;
+    height:100%;
+    padding:15px;
+    position:fixed;
+    top:0;
+    width:20%
+}
+
+.asideArea{
+
+}
+/*--- Aside Nav ---*/
+ul.asideNav{}
+ul.asideNav>li{}
+ul.asideNav>li>a{}
+ul.asideNav>li>span{}
+ul.asideNav>li>span:hover{}
+ul.asideNav>li>a:hover{}
+/*-- Aside Sub Nav --*/
+ul.asideSubNav{display:none}
+ul.asideSubNav>li{}
+ul.asideSubNav>li>a{}
+ul.asideSubNav>li>a:hover{}
+section.section{
+    background:#fff;
+    box-sizing:border-box;
+    color:#000;
+    float:right;
+    padding:15px 30px;
+    width:80%
+}
+.sectionArea{
+    position:relative;
+    min-height:800px;
+    width:100%
+}
+.form-group>h2{
+    margin:0;
+    padding-bottom:15px;
+    text-align:center;
+
+}
+/*---- Create for Birth ----*/
+.childNo{
+    box-shadow:0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color:#555;
+    font-size:14px;
+    height:34px;
+    line-height:1.42857;
+    padding:6px 12px;
+    transition:border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+.childNo>option{padding:2px 15px;}
+/*--- Animation ----*/
+ul.mainNav>li>a:hover,
+ul.nav>li>a:hover,
+ul.viewLink>li>a:hover,
+ul.listLink>li>a:hover,
+.footer>p>span:hover,
+.message>p,
+.action input:hover,
+ul.register>li>a:hover,
+.srhBtn:hover,
+td>a:hover{
+    -webkit-transition: all 700ms;
+    -moz-transition: all 700ms;
+    -ms-transition: all 700ms;
+    -o-transition: all 700ms;
+    transition: all 700ms;
+}

@@ -1,0 +1,10 @@
+<li> Developed in MVC pattern.</li>	
+<li> Full Object Oriented Programming follow. </li>	
+<li> Data Insertion with Image in MYSQL. </li>	
+<li> Phonebook Data Show By a Specific Range Of Number. </li>	
+<li> Awesome View Of Particular Phonebook Data. </li>	
+<li> Trash System Of Phonebook Data. </li>	
+<li> Trash Data Of Phonebook Filtering By Name, Age, eMail, Phone Number. </li>	
+<li> jQuery UI Autocomplete Filtering. </li>	
+<li> Phonebook Data Genarator In PDF and XLS Format. </li>	
+<li> Phonebook Data Single/Multiple Recovering system. </li>
